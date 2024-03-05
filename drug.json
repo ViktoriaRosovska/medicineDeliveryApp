@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol",
+    "price": 200.7,
+    "manufacturer": "OOO Farm",
+    "image": "1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tylenol",
+    "price": 150.35,
+    "manufacturer": "OOO Farm",
+    "image": "2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vitaxon",
+    "price": 222.53,
+    "manufacturer": "OOO Farm",
+    "image": "3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Amplodypin",
+    "price": 545.2,
+    "manufacturer": "OOO Farm",
+    "image": "4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cytramon",
+    "price": 31.44,
+    "manufacturer": "OOO Farm",
+    "image": "5.jpg"
+  }
+]

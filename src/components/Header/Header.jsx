@@ -1,14 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { Container } from "../../App.style";
 import { HeaderLink, Navigation } from "./Header.styled";
 
 export const Header = () => {
   return (
     <header>
-      <Navigation>
-        <HeaderLink to="/shop">Shop</HeaderLink>
-        <span>|</span>
-        <HeaderLink to="/cart">Shopping Cart</HeaderLink>
-      </Navigation>
+      <Container>
+        <Navigation>
+          <HeaderLink to="/">Shop</HeaderLink>
+          <span>|</span>
+          <HeaderLink to="/cart">Shopping Cart</HeaderLink>
+        </Navigation>
+      </Container>
     </header>
   );
 };

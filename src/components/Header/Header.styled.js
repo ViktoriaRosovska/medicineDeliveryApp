@@ -9,6 +9,11 @@ const Navigation = styled.nav`
   padding: 40px 60px;
 `;
 const HeaderLink = styled(NavLink)`
-  border: 1px solid red;
+  color: #242424;
+  font-size: large;
+  &.active,
+  &:hover {
+    color: #646cff;
+  }
 `;
 export { Navigation, HeaderLink };
