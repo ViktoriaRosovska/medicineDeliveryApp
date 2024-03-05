@@ -15,6 +15,7 @@ export default function Shop() {
   }, [dispatch]);
   const drugs = useSelector(selectDrugs24).drugs.drugs;
   console.log(drugs);
+
   const isLoading = useSelector(selectIsLoading);
   return (
     <FlexContainer>
